@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/html5reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navlink">
+        <a href="about.html">About</a>
+      </div>
+      <div class="navlink">
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <div id="logo" class="navlink">
+        <a href="index.html">
+          <img src="images/logo.jpg" alt="logo" id="logo" />
+        </a>
+      </div>
+      <div class="navlink">
+        <a href="equipment.html">Equipment</a>
+      </div>
+      <div class="navlink">
+        <a class="active-page" href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="contact-text">
+      <h1>Follow me on Instagram to see my newest creations!</h1>
+      <br />
+
+      <a href="https://www.instagram.com/thrill.of.the.grill/"
+        >@thrill.of.the.grill</a
+      >
+    </div>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Contact me!</legend>
+        <div class="contact-div">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Josh Green" />
+        </div>
+        <div class="contact-div">
+          <label> Email:</label>
+          <input type="email" placeholder="email@example.com" />
+        </div>
+        <div class="contact-div">
+          <label for="subject">Subject:</label>
+          <input type="text" placeholder="Grilling Tips" />
+        </div>
+        <div class="contact-div">
+          <label for="message">Message:</label>
+          <textarea
+            id="form-message"
+            name="message"
+            placeholder="Type your message here!"
+            rows="10"
+            cols="95"
+          >
+          </textarea>
+        </div>
+        <div class="contact-div">
+          <input type="submit" value="Send" />
+        </div>
+      </fieldset>
+    </form>
+    <div class="footer">
+      <footer>This website was made by Josh Green - 2019</footer>
+    </div>
+  </body>
+</html>
