@@ -972,4 +972,23 @@ legend {
     margin-left: 20px;
     height: 100%;
   }
+
+  .homediv1 {
+    grid-area: 1 / 1 / 3 / -1;;
+  }
+  .homediv1 video {
+    width: 100%;
+  }
+  .homediv2 {
+    display: none;
+  }
+  .homediv3 {
+    display: none:
+  }
+  .homediv4 {
+    grid-area: 3 / 2 / 4 / 3;
+    align-self: center;
+    justify-self: center;
+  }
 }
+
