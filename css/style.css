@@ -640,9 +640,6 @@ legend {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
-    background-color: red;
-  }
   header {
     background-attachment: fixed; /* Parallax effect */
     background-image: url(../images/firebigg.jpg); /* Your code here - Link to header.jpg in the images folder */
@@ -719,9 +716,6 @@ legend {
   }
 }
 @media screen and (max-width: 600px) {
-  body {
-    background-color: green;
-  }
   #gallery-back {
     background-attachment: fixed; /* Parallax effect */
     background-image: url(../images/rib_plate.jpeg); /* Your code here - Link to header.jpg in the images folder */
