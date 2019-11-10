@@ -354,7 +354,7 @@ nav a.active-page {
     box-shadow: 0 0 3px #b20000;
   }
 }
-a.green.button {
+button.red.button {
   background-color: #004a7f;
   -webkit-border-radius: 10px;
   border-radius: 10px;

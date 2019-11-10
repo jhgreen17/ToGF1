@@ -20,9 +20,9 @@
       <div class="navlink">
         <a href="about.html">About</a>
       </div>
-      <div id="logo1" class="navlink" aria-label="home">
+      <div id="logo1" class="navlink">
         <a class="active-page" href="index.html">
-          <img src="images/logo.jpg" alt="" id="logo2" />
+          <img src="images/logo.jpg" alt="logo" id="logo2" />
         </a>
       </div>
       <div class="navlink">
@@ -36,9 +36,13 @@
     <main>
       <div>
         <div class="button-stuff">
-          <a class="green button" id="green" href="#fire">
-            <button>I'm Hungry!</button></a
+          <button
+            class="red button"
+            id="red"
+            onclick="window.location.href = '#fire';"
           >
+            I'm Hungry!
+          </button>
         </div>
 
         <div id="fire" class="homediv1">
@@ -72,9 +76,12 @@
             />
           </div>
           <div class="homediv4 button-stuff">
-            <a href="gallery.html"
-              ><button id="showme">Show me more!</button></a
+            <button
+              id="showme"
+              onclick="window.location.href = 'gallery.html';"
             >
+              Show me more!
+            </button>
           </div>
         </div>
       </div>
