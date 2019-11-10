@@ -135,7 +135,7 @@ p {
 .aboutcontent p {
   font-size: 24px;
 }
-.aboutcontent h2 {
+.aboutcontent h1 {
   font-size: 48px;
 }
 
@@ -420,12 +420,12 @@ a.green.button {
   opacity: 1;
   display: block;
 }
-h2.rib-text {
+h1.rib-text {
   font-size: 24px;
   padding-bottom: 4px;
   font-weight: bold;
 }
-h3.rib-text {
+h2.rib-text {
   font-size: 20px;
   font-weight: bold;
 }
@@ -664,7 +664,7 @@ legend {
   .aboutcontent p {
     font-size: 20px;
   }
-  .aboutcontent h2 {
+  .aboutcontent h1 {
     font-size: 48px;
   }
   .intro {
@@ -883,12 +883,12 @@ legend {
     opacity: 1;
     display: block;
   }
-  h2.rib-text {
+  h1.rib-text {
     font-size: 14px;
     padding-bottom: 4px;
     font-weight: bold;
   }
-  h3.rib-text {
+  h2.rib-text {
     font-size: 14px;
     font-weight: bold;
   }
