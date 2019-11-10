@@ -26,7 +26,12 @@ nav {
   z-index: 2;
 }
 
-#logo {
+#logo1 {
+  margin: 0 auto;
+  position: inherit;
+  max-height: 15vh;
+}
+#logo2 {
   margin: 0 auto;
   position: inherit;
   max-height: 15vh;
@@ -43,7 +48,7 @@ nav {
 .navlink a {
   font-size: 24px;
   text-decoration: none;
-  color: #c53651;
+  color: #f54868;
 }
 .navlink a:hover {
   color: #e7f9f0;
@@ -219,7 +224,6 @@ nav a.active-page {
   font-family: "Open Sans";
   border: 2px solid cdcdcd;
   border-radius: 25px;
-  background-color: #1f201c;
 }
 #fire {
   color: #0c0000;
@@ -761,7 +765,12 @@ legend {
     background-color: grey;
     opacity: 0.3;
   }
-  #logo {
+  #logo1 {
+    order: 1;
+    max-height: 12vh;
+    z-index: 1;
+  }
+  #logo2 {
     order: 1;
     max-height: 12vh;
     z-index: 1;
