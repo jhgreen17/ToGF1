@@ -586,6 +586,8 @@ legend {
 }
 .equip-format a {
   text-align: left;
+  color: blue;
+  text-decoration: none;
 }
 
 .div1 {
