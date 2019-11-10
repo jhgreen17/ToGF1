@@ -663,6 +663,30 @@ legend {
   margin-left: 20px;
   height: 100%;
 }
+a.skip{
+  left: -500px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+  text-decoration: none;
+}
+a.skip:focus{
+  color: white;
+  background-color: black;
+  left: auto;
+  top: auto;
+  width: 20%;
+  height: auto;
+  overflow: auto;
+  margin: 10px 35%;
+  padding: 5px;
+  text-align: center;
+  font-size: 2em;
+  z-index: 999;
+}
 
 @media screen and (max-width: 1000px) {
   header {
